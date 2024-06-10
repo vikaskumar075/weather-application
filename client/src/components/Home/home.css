@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(227, 225, 223);
+    overflow: hidden;
+    min-height: 100vh;
+}
+.container{
+    border-radius: 40px;
+    display: flex;
+    /* flex-direction: row; */
+    border: 2px solid rgb(216, 214, 214);
+    gap: 10px;
+    width: 100%;
+    min-height:80vh;
+    margin-top: 20px;
+    align-items: center;
+    background-color: rgb(181, 181, 181);
+}
+.container_one{
+    background-color: rgb(200, 199, 199);
+    border-radius: 20px;
+    padding: 30px;
+    width: 60%;
+    height: 80%;
+    border: 2px solid rgb(201, 198, 198);
+}
+.container_two{
+    background-color: rgb(163, 163, 163);
+    width: 40%;
+    height: 60%;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 20px;
+    padding: 65px 0;
+}
+.country_date{
+     display: flex;
+    justify-content: space-between ;
+}
+.temp{
+    font-size: 80px;
+    text-align: center;
+    /* margin-top: 50px; */
+}
+.weather_type{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wish_time{
+    text-align: center;
+    font-size: 30px;
+    /* padding:5px; */
+    /* margin:30px; */
+}
